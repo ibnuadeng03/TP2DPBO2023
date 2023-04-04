@@ -47,9 +47,6 @@ e. Mahasiswa mampu memahami konsep Graphical User Interface (GUI) yang dihubungk
 + Database (PHPMyAdmin) 
 + XAMPP (diharapkan versi yang terbaru)
 
-### Diagram Alur : 
-##### xxxxxxx
-
 ### Desain Program :
 Desain yang dibuat ialah, diantaranya :
 Kelas xxxxx
