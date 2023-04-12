@@ -48,17 +48,17 @@ e. Mahasiswa mampu memahami konsep Graphical User Interface (GUI) yang dihubungk
 + XAMPP (diharapkan versi yang terbaru)
 
 ### Desain Program :
-Desain yang dibuat ialah, diantaranya :
-Kelas xxxxx
-   - Kelas xxxxx memiliki x atribut, diantaranya : xxxxxxxxxxxx.
+Terkait dengan desain yang dibuat, dengan demikian saya uraikan menjadi beberapa point-point penting berikut : 
+- `DbConnection` : Merupakan Class yang berfungsi untuk menghubungkan koneksi ke dalam sebuah database. Database yang digunakan dalam program ini, yakni  _MySQL_.
+- `Artis` : Merupakan Class yang berfungsi untuk menyimpan atribut Artis.
+- `ImageSet` : Merupakan Class yang berfungsi untuk mengatur foto/gambar.
+- `MainFrame` : Merupakan Class yang berfungsi untuk menyimpan data Artis dan Sinetron.
+- `panelArtis` : Merupakan Class form yang memiliki fungsi untuk menampilkan daftar card yang berisi daftar nama artis beserta prestasi/karya yang telah diraihnya yang terdapat pada _database_.
+- `panelSinetron` : Merupakan Class form yang memiliki fungsi untuk menampilkan daftar card yang berisi daftar nama sinetron beserta dengan atribut pendukung seperti sutradara dan rumah produksinya yang terdapat pada _database_.
+- `formArtis` : Merupakan Class yang didesain untuk menginput dan menampilkan daftar-daftar nama artis beserta dengan atribut pendukung seperti karya yang pernah diraih dan lainnya yang terdapat pada _database_.
+- `formSinetron` : Merupakan Class yang didesain untuk menginput dan menampilkan daftar-daftar nama sinetron beserta dengan atribut pendukung seperti sutradara dan rumah produksinya yang terdapat pada _database_.
 
-Terdapat beberapa tombol dalam program ini yakni :
-   - Menambahkan xxx
-   - Mengubah xxx
-   - Menghapus xxx
-   - Menampilkan data keseluruhan xxxxx
 
-xxxxx
 
 ### Dokumentasi Running Program
 ### a. Tampilan Awal 
