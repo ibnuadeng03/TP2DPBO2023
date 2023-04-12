@@ -65,7 +65,9 @@ Buatlah program Java yang terkoneksi dengan database MySQL dengan memperhatikan 
 
 
 ## Desain Program :
-Terkait dengan desain yang dibuat, dengan demikian saya uraikan menjadi beberapa point-point penting berikut : 
+##### ![UML](/tangkapanlayar/UMLTP2.png "1")
+##### ![RED](/tangkapanlayar/ERD.png "1")
+Dari ke-dua bagan diatas, terkait dengan desain yang dibuat, dengan demikian saya uraikan menjadi beberapa point-point penting berikut : 
 - `DbConnection` : Merupakan Class yang berfungsi untuk menghubungkan koneksi ke dalam sebuah database. Database yang digunakan dalam program ini, yakni  _MySQL_.
 - `Artis` : Merupakan Class yang berfungsi untuk menyimpan atribut Artis.
 - `ImageSet` : Merupakan Class yang berfungsi untuk mengatur foto/gambar.
@@ -75,6 +77,7 @@ Terkait dengan desain yang dibuat, dengan demikian saya uraikan menjadi beberapa
 - `formArtis` : Merupakan Class yang didesain untuk menginput dan menampilkan daftar-daftar nama artis beserta dengan atribut pendukung seperti karya yang pernah diraih dan lainnya yang terdapat pada _database_.
 - `formSinetron` : Merupakan Class yang didesain untuk menginput dan menampilkan daftar-daftar nama sinetron beserta dengan atribut pendukung seperti sutradara dan rumah produksinya yang terdapat pada _database_.
 
+Untuk hal database, saya membuat 2 tabel yakni **tb_sinetron** yang berfungsi untuk menyimpan daftar-daftar sientron dan **tb_artis** yang berfungsi untuk menyimpan daftar-daftar nama artis beserta data lainnya. Kedua tabel tersebut tidak memiliki hubungan relasi satu sama lain.
 
 
 ## Dokumentasi Running Program
