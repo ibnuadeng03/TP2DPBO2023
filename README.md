@@ -1,7 +1,7 @@
 # DESAIN DAN PEMROGRAMAN BERORIENTASI OBJEK 
 ```
 Mata Kuliah Pemrograman Berorientasi Objek (IK290).
-Mata Kuliah Wajib Kurikulum Semester Genap.
+Mata Kuliah Wajib Kurikulum (MKWK) Semester Genap.
 Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam.
 Departement Of Computer Science Education. 
 Program Studi Ilmu Komputer.
@@ -55,6 +55,13 @@ Buatlah program Java yang terkoneksi dengan database MySQL dengan memperhatikan 
 - [X] [XAMPP](https://www.jogjahost.co.id/blog/xampp-adalah/) : sebuah software yang menjalankan peran sebagai *local web server/localhost*. XAMPP dikembangkan oleh *Apache Friends*. *Apache Friends* sendiri merupakan proyek nirlaba yang bertujuan untuk mempromosikan server web *Apache*. Selain dari itu terdapat juga di dalamnya MariaDB, PHP, Perl, dan lainnya.
 - [X] [*Graphical User Interface* (GUI)](https://bakai.uma.ac.id/2022/09/12/apa-itu-graphical-user-interface-bagaimana-cara-kerjanya/) : *Graphical User Interface* (GUI) adalah komponen sistem visual interaktif untuk aplikasi personal komputer. Menurut **Computer Hope**, GUI menampilkan objek yang mampu memunculkan isu serta merepresentasikan aksi asal pengguna. Menggunakan adanya GUI, kita bisa mengetahui bahwa apa yang kita input telah diterima dan responnya ditampilkan secara visual. GUI dapat terlihat dari perubahan rona, ukuran, visibilitas, serta sejenisnya saat terjadi sebuah hubungan.
 - [X] [*Apache NetBeans*](https://netbeans.apache.org/) : Apache NetBeans lebih dari sekadar editor teks. Ini menyoroti kode sumber secara sintaksis dan semantik , memungkinkan Anda dengan mudah memperbaiki kode, dengan berbagai alat praktis dan canggih. Apache NetBeans menyediakan editor, wizard, dan template untuk membantu Anda membuat aplikasi di Java, JavaScript, PHP, HTML5, CSS, dan banyak bahasa lainnya. Apache NetBeans dapat diinstal pada semua sistem operasi yang mendukung Java, yaitu Windows, Linux, Mac OSX dan BSD. Tulis Sekali, Jalankan Di Mana Saja, juga berlaku untuk NetBeans.
+- [X] [JDBC atau *Java Database Connectivity*](https://rmdigital.co.id/kamus/jdbc/) : Untuk menghubungkan Java dengan MySQL dibutuhkan JDBC atau Java Database Connectivity. JDBC bertugas menyediakan koneksi ke database sehingga datanya dapat diakses dan dikelola menggunakan program Java.Ada beberapa istilah dalam JDBC, yaitu:
+  + DriverManager	: sebuah class untuk mengelola driver
+  + Driver		: interface untuk menghandle koneksi dengan database
+  + Connection		: interface yang memuat method untuk menghubungkan dengan database
+  + Statement		: interface untuk mengeksekusi query
+  + ResultSet		: interface untuk menampung data hasil query
+  + SQLException	: class yang menyediakan informasi error di database
 
 
 ## Requirements : 
@@ -62,6 +69,7 @@ Buatlah program Java yang terkoneksi dengan database MySQL dengan memperhatikan 
 + Apache NetBeans (diharapkan versi yang terbaru)
 + Database (PHPMyAdmin) 
 + XAMPP (diharapkan versi yang terbaru)
++ JDBC atau *Java Database Connectivity* untuk MySQL (diharapkan versi 8.0.28)
 
 
 ## Desain Program :
@@ -77,7 +85,7 @@ Dari ke-dua bagan diatas, terkait dengan desain yang dibuat, dengan demikian say
 - `formArtis` : Merupakan Class yang didesain untuk menginput dan menampilkan daftar-daftar nama artis beserta dengan atribut pendukung seperti karya yang pernah diraih dan lainnya yang terdapat pada _database_.
 - `formSinetron` : Merupakan Class yang didesain untuk menginput dan menampilkan daftar-daftar nama sinetron beserta dengan atribut pendukung seperti sutradara dan rumah produksinya yang terdapat pada _database_.
 
-Untuk hal database, saya membuat 2 tabel yakni **tb_sinetron** yang berfungsi untuk menyimpan daftar-daftar sientron dan **tb_artis** yang berfungsi untuk menyimpan daftar-daftar nama artis beserta data lainnya. Kedua tabel tersebut tidak memiliki hubungan relasi satu sama lain.
+Untuk hal database, terdapat **2 tabel** yakni **tb_sinetron** yang berfungsi untuk menyimpan daftar-daftar sientron dan **tb_artis** yang berfungsi untuk menyimpan daftar-daftar nama artis beserta data lainnya. Kedua tabel tersebut tidak memiliki hubungan relasi satu sama lain.
 
 
 ## Dokumentasi Running Program
